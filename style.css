@@ -24,10 +24,4 @@ footer { height : 300px;}
 span{color: red;}
 select {font-size : 7px;}
 .foot_sel{text-align: right;}
-.quick_menu{
-    position : fixed;
-    margin : 168px 78%;
-    display : grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
-    padding : 0;
-}
+/* .quick_menu{ position : fixed; margin : 168px 78%; display : grid; grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;} */
