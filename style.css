@@ -1,0 +1,33 @@
+* {margin : 0; padding : 0}
+html {min-width : 1020px;}
+body {background-color : #e3dfd4}
+ul{list-style : none;}
+.vertical_bar {color : #8d9316;}
+header { width : 100%; background-color : #152314;}
+nav{width : 1020px; height : 44px; line-height : 44px; margin : 0 auto; display : flex; justify-content: space-between;}
+nav .menu li, .login li {padding : 0 10px; font-size : 14px;}
+nav .menu > a:visited, a:link {color: white; text-decoration: none;}
+nav .menu a:hover {color : #8d9316;}
+
+nav .login > a:visited, a:link, a.hover { color : #8d9316; text-decoration : none;}
+nav > ul { display : flex;}
+main, footer {width : 100%;}
+main > div {width : 1020px; margin : 0 auto;}
+.notice {background-color : #333333; color: white; margin : 3px 0; font-size : 10px; padding : 9px 7px;}
+.eventboard {display : grid; grid-template-columns: 1fr 1fr; grid-template-rows : 1fr 1fr; grid-gap : 5px;}
+.customer > div{height : 65px; line-height : 65px; display : flex; justify-content: space-between; border : 1px solid black; background-color: #e1e1e1; padding : 0 28px;}
+.customer > div > img{height : 36px; margin : 15px 0;}
+.type, .info, .story, .talk { display : flex; justify-content: space-between; margin : 3px 0;}
+
+footer > div {width : 1020px; margin : 0 auto; display : flex; justify-content: space-between;}
+footer { height : 300px;}
+span{color: red;}
+select {font-size : 7px;}
+.foot_sel{text-align: right;}
+.quick_menu{
+    position : fixed;
+    margin : 168px 78%;
+    display : grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    padding : 0;
+}
